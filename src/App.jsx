@@ -120,27 +120,21 @@ function App() {
 
   const skills = [
     { img: Kubernetes, name: 'Kubernetes'},
-    { img: aws, name: 'aws'},
+    { img: aws, name: 'AWS'},
     { img: docker, name: 'Docker'},
-    { img: grafana, name: 'grafana'},
-    { img: jenkins, name: 'jenkins'},
-    { img: prometheus, name: 'prometheus'},
-    { img: gitops, name: 'gitops'},
-    { img: terraform, name: 'terraform'},
+    { img: grafana, name: 'Grafana'},
+    { img: jenkins, name: 'Jenkins'},
+    { img: prometheus, name: 'Prometheus'},
+    { img: gitops, name: 'GitLab'},
+    { img: terraform, name: 'Terraform'},
     { img: Ansible, name: 'Ansible'},
-    { img: argocd, name: 'argocd'},
-
-    
+    { img: argocd, name: 'Argo CD'},
     { img: python, name: 'Python'},
-    { img: java, name: 'java' },
+    { img: java, name: 'Java' },
     { img: react, name: 'React'},
     { img: node, name: 'NodeJs' },
     { img: mongo, name: 'MongoDb'},
-    { img: next, name: 'Next JS'},
     { img: ts, name: 'TypeScript'},
-
-    { img: git, name: 'GitHub'},
-    { img: fire, name: 'Firebase'},
   ]
 
 
