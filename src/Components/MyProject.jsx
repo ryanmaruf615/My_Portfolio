@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 // Skills icons grouped in one object
-import Skills from './Skills';
+import * as icons from './Skills';
 
 // Project data
 const projects = [
@@ -12,20 +12,20 @@ const projects = [
     title: 'Food-Corner',
     description:
       'Food-Corner is an online food order website where users can order different types of food. Admin can add/edit food details. Users can save favorites.',
-    image: 'p3', // will come from props
+    image: 'p3',
     githubLinks: [
       { label: 'Github', url: 'https://github.com/ryanmaruf615/Food-corner.git' }
     ],
     tech: [
-      'html', 'css', 'tailwind', 'js', 'react', 'redux',
-      'node', 'ex', 'mongo', 'jwt', 'fire'
+      'html', 'css', 'tailwind', 'javascript', 'react', 'redux',
+      'nodejs', 'express', 'mongodb', 'jwt', 'fire'
     ]
   },
   {
     title: 'WunderLust',
     description:
       'Automated end-to-end deployment on AWS EKS with ArgoCD, Terraform, and Jenkins. Integrated CI/CD pipelines, implemented GitOps, and set up monitoring with Prometheus and Grafana.',
-    image: 'pX',
+    image: '',
     githubLinks: [
       { label: 'Client', url: 'https://github.com/ryanmaruf615/Wanderlust-Mega-Project' }
     ],
@@ -38,22 +38,23 @@ const projects = [
     title: 'DevOps .NET on Azure',
     description:
       'DevOps-driven cloud deployment of a containerized .NET application using Azure services. Implemented Docker containerization, CI/CD deployment to Azure, and integrated Azure storage services.',
-    image: 'p4',
+    image: '',
     githubLinks: [
       { label: 'Github', url: 'https://github.com/UniversityOfAppliedSciencesFrankfurt/se-cloud-2023-2024/tree/Unit-tester-group-cc/Source/MyCloudProjectSample' }
     ],
-    tech: ['net', 'docker', 'azure']
+    tech: ['dotnet', 'docker', 'azure']
   },
   {
     title: 'Multi-Tech Voting App',
     description:
       'Developed a voting application using Python, .NET, Node.js, and PostgreSQL, optimized with AWS EC2 and Kubernetes. Used GitOps-based CI/CD with Argo CD to accelerate release cycles by 75%, improving stability by 30%.',
-    image: 'p5',
+    image: '',
     githubLinks: [
       { label: 'Github', url: 'https://github.com/ryanmaruf615/k8s-kind-voting-app.git' }
     ],
-    tech: ['python', 'net', 'node', 'postgres', 'aws', 'kubernetes', 'argocd']
+    tech: ['python', 'dotnet', 'nodejs', 'postgres', 'aws', 'kubernetes', 'argocd']
   }
+
 ];
 
 const MyProject = ({ p1, p2, p3, p4, p5 }) => {

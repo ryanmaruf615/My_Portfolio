@@ -20,6 +20,7 @@ import grafana from './assets/skill/grafana.png'
 import jenkins from './assets/skill/jenkins.png'
 import prometheus from './assets/skill/prometheus.png'
 import terraform from './assets/skill/terraform.png'
+import azure from './assets/skill/azure.png'
 
 
 
@@ -121,6 +122,7 @@ function App() {
   const skills = [
     { img: Kubernetes, name: 'Kubernetes'},
     { img: aws, name: 'AWS'},
+    { img: azure, name: 'Azure'},
     { img: docker, name: 'Docker'},
     { img: grafana, name: 'Grafana'},
     { img: jenkins, name: 'Jenkins'},
@@ -134,7 +136,7 @@ function App() {
     { img: react, name: 'React'},
     { img: node, name: 'NodeJs' },
     { img: mongo, name: 'MongoDb'},
-    { img: ts, name: 'TypeScript'},
+   
   ]
 
 

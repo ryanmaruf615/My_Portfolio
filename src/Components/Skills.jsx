@@ -1,5 +1,5 @@
-import html from "../assets/skill/html.png";
-import css from "../assets/skill/css.png";
+import html from "../assets/skill/html.jpg";
+import css from "../assets/skill/css.jpg";
 import javascript from "../assets/skill/js.png";
 import react from "../assets/skill/react.png";
 import nodejs from "../assets/skill/node.png";
@@ -18,7 +18,7 @@ import github from "../assets/skill/git.png"; // Using same as git since there's
 // Extra icons you might want to use
 import ansible from "../assets/skill/Ansible.png";
 import argocd from "../assets/skill/argocd.png";
-import aws2 from "../assets/skill/aws2.png";
+import aws2 from "../assets/skill/aws2.jpg";
 import bootstrap from "../assets/skill/bootstrap.png";
 import fire from "../assets/skill/fire.png";
 import gitops from "../assets/skill/gitops.png";
