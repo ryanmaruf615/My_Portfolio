@@ -53,7 +53,21 @@ const projects = [
       { label: 'Github', url: 'https://github.com/ryanmaruf615/k8s-kind-voting-app.git' }
     ],
     tech: ['python', 'dotnet', 'nodejs', 'postgres', 'aws', 'kubernetes', 'argocd']
-  }
+  },
+
+  {
+  title: 'Enhanced Unit Testing Framework for Hierarchical Temporal Memory (HTM) Algorithms',
+  description:
+    'Developed a comprehensive suite of unit tests for the Temporal Memory algorithm using TDD principles and reflection. Simulated edge cases to validate spatiotemporal learning functions, including synapse creation, adaptation, and pruning. Collaborated in a three-member team to ensure industry-standard testing quality.',
+  image: 'p_htm', // replace with actual image asset key
+  githubLinks: [
+    { label: 'GitHub', url: 'https://github.com/ryanmaruf615/neocortexapi/tree/dev/source/MySEProject/Documentation' }
+  ],
+  tech: [
+    'csharp', '.net', 'mstest', 'neocortexapi', 'htm', 'unit-testing'
+  ]
+}
+
 
 ];
 
