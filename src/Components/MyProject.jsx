@@ -64,7 +64,7 @@ const projects = [
     { label: 'GitHub', url: 'https://github.com/ryanmaruf615/neocortexapi/tree/dev/source/MySEProject/Documentation' }
   ],
   tech: [
-    'csharp', '.net', 'mstest', 'neocortexapi', 'htm', 'unit-testing'
+     'dotnet'
   ]
 }
 
