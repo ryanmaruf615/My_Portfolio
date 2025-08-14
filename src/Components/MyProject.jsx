@@ -56,14 +56,20 @@ const projects = [
   },
 
   {
-    title: 'Multi-',
+    title: 'Dream Job',
     description:
-      'Developed a voting application using Python, .NET, Node.js, and PostgreSQL, optimized with AWS EC2 and Kubernetes. Used GitOps-based CI/CD with Argo CD to accelerate release cycles by 75%, improving stability by 30%.',
-    image: '',
+      'Job-Suchplattform mit React, Node, Express und MySQL. RESTful APIs, sichere Authentifizierung und leistungsfähige Filter für ein reibungsloses Sucherlebnis.',
+    image: 'p_dreamjob', // passe deinen Bild-Key an
     githubLinks: [
-      { label: 'Github', url: 'https://github.com/ryanmaruf615/k8s-kind-voting-app.git' }
+      { label: 'Github', url: 'https://github.com/DEIN_USER/Dream-Job' } // Link einsetzen
     ],
-    tech: ['python', 'dotnet', 'nodejs', 'postgres', 'aws', 'kubernetes', 'argocd']
+    highlights: [
+      'RESTful APIs zwischen Frontend & Backend',
+      'Sichere Authentifizierung (z. B. JWT/Sessions)',
+      'Robuste Filter: Titel, Standort, Art, Gehalt',
+      'Responsive UI, zuverlässige Team-Delivery'
+    ],
+    tech: ['react', 'nodejs', 'express', 'mysql']
   },
 
   {
